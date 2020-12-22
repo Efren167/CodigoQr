@@ -17,10 +17,11 @@ import javax.imageio.ImageIO;
 public class CodigoQr {
 
 	public static  void creaCodigoQr() {
+		
 
 		try {
 			String content = "";//aqui va la direccion web a la que quieres redireccionar.
-			String filePath = "";//ruta donde guardarnel codigoQr
+			String filePath = "";//ruta donde guardar el codigoQr
 			String fileType = "png";//tipo archivo del codigoQr
 			int size = 125;
 			UUID uuid = UUID.randomUUID();
